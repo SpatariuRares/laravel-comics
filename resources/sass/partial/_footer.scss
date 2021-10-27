@@ -1,0 +1,27 @@
+footer{
+    .Visa{
+        background-color:$SecondaryColor;
+        color: rgb(255, 0, 0);
+        span{
+            margin: 0 10px;
+        }
+        text-align: right;
+    }
+    .Menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                margin: 0 10px;
+                text-transform: uppercase;
+                a{
+                    color: #000;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

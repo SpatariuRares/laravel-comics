@@ -4,6 +4,60 @@
   padding: 0;
 }
 
-header {
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header .Visa {
   background-color: #1100ff;
+  color: #fff;
+  text-align: right;
+}
+header .Visa span {
+  margin: 0 10px;
+}
+header .Menu {
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .Menu ul {
+  list-style: none;
+  display: flex;
+}
+header .Menu ul li {
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+header .Menu ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer .Visa {
+  background-color: #363232;
+  color: red;
+  text-align: right;
+}
+footer .Visa span {
+  margin: 0 10px;
+}
+footer .Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .Menu ul {
+  list-style: none;
+  display: flex;
+}
+footer .Menu ul li {
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+footer .Menu ul li a {
+  color: #000;
+  text-decoration: none;
 }

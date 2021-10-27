@@ -13,7 +13,7 @@
 <body>
     @include('partial.header')
 
-    <h1>ciao</h1>
+    @yield('content')
 
     @include('partial.footer')
 </body>
